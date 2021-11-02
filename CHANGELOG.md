@@ -6,6 +6,13 @@
   
 - Optimize full-screen ad experience
 - Fix some bugs
+- Publisher must add 'REQUEST_INSTALL_PACKAGES' premission in manifest when use channel SDK
+- Channel sdk should  state this as blow in manifest:
+```
+    <meta-data
+            android:name="com.san.Mode"
+            android:value="ex" />
+```
 
 ## 2.0.2.+(10.12-2021)
 - Improve performance
